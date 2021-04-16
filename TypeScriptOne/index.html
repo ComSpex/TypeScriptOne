@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="app.js"></script>
+    <script src="raytracer.js"></script>
+    <script>
+      window.onload=function(){
+        var el=document.getElementById('content');
+        var greeter=new Greeter(el);
+        greeter.start();
+        exec();
+      };
+    </script>
+</head>
+<body>
+    <h1>TypeScript HTML App</h1>
+    <div id="content"></div>
+
+    <canvas width="512" height="512"></canvas>
+</body>
+</html>

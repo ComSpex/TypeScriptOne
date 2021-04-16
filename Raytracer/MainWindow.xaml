@@ -1,0 +1,11 @@
+﻿<Window x:Class="Raytracer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="515" Width="515">
+    <Grid Name="mainG">
+		<Canvas Name="Ctx">
+			<TextBlock Text="Hello, Canvas" />
+			<Rectangle Canvas.Left="10" Canvas.Top="10" Width="100" Height="50" Stroke="Red" StrokeThickness="1" />
+		</Canvas>
+	</Grid>
+</Window>
